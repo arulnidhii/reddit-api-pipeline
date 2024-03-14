@@ -13,7 +13,7 @@ with DAG(
 
     extract_data = AzureContainerInstancesOperator(
         task_id="extract_reddit_data",
-        image_uri="redditapi.azurecr.io/reddit_extractor:latest",  # Replace with your ACR details
-        resource_group="Reddit-api-arul",  # Replace with your resource group
-        region="UK South",                 # Replace with your region
+        image_uri="redditapi.azurecr.io/reddit_extractor:latest", 
+        resource_group="Reddit-api-arul",  
+        region="UK South",              
     )
