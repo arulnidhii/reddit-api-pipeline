@@ -7,8 +7,8 @@ from azure.storage.blob import BlobServiceClient, BlobClient
 
 
 # Replace with your credentials and connection string
-client_id = '5XvyHnaYR2Kf-vi-8mp56w'
-client_secret = 'SJ1viaX_5cHNQw3FrKUvMVa9lFII6g'
+client_id = 'True'
+client_secret = 'True'
 user_agent = 'my_reddit_scraper'
 connection_string = 'True'
 container_name = 'redditextracted'
