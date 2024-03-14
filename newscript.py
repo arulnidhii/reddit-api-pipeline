@@ -10,7 +10,7 @@ from azure.storage.blob import BlobServiceClient, BlobClient
 client_id = '5XvyHnaYR2Kf-vi-8mp56w'
 client_secret = 'SJ1viaX_5cHNQw3FrKUvMVa9lFII6g'
 user_agent = 'my_reddit_scraper'
-connection_string = 'DefaultEndpointsProtocol=https;AccountName=redditapi;AccountKey=6pyaa1O3QL/CgVqsUHx+WreOz4CnFdDE2oG6m2Ur/Dgt7bdcGREjVPXug1QMuK5gkg7v7CbcUs6Q+AStcOTfNg==;EndpointSuffix=core.windows.net'
+connection_string = 'True'
 container_name = 'redditextracted'
 
 # Authenticate with Reddit API
