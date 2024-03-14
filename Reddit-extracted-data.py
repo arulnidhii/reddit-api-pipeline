@@ -7,11 +7,11 @@ from pyspark.sql import SparkSession
 from praw import Reddit
 from azure.storage.blob import BlobServiceClient, BlobClient
 
-client_id = 'xxxx'
-client_secret = 'xxxx'
+client_id = 'TRUE'
+client_secret = 'TRUE'
 user_agent = 'my_reddit_scraper'
 connection_string = 'DefaultEndpointsProtocol=https;AccountName=redditsaarul123;AccountKey=xxxx;EndpointSuffix=core.windows.net'
-container_name = 'reddit-Data-Extracted'
+container_name = 'redditExtracted'
 
 # Authenticating Reddit API
 reddit = Reddit(client_id=client_id,
@@ -22,7 +22,7 @@ reddit = Reddit(client_id=client_id,
 subreddit_name = 'dataengineering'
 subreddit = reddit.subreddit(subreddit_name)
 
-cluster_url = "https://xxxx.azuredatabricks.net/xxxx#setting/clusters/xxxx/sparkClusterUi"
+cluster_url = "https://TRUE"
 
 # Create SparkSession
 
